@@ -1,4 +1,4 @@
 resource "aws_instance" "myinstance" {
-  ami           = var.ami
-  instance_type = var.instance
+  ami           = ami-0e9107ed11be76fde
+  instance_type = t2.nano
 }
